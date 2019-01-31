@@ -1,0 +1,6 @@
+runtime: php72
+entrypoint: serve php/index.php
+
+handlers:
+- url: /js
+  static_dir: js
